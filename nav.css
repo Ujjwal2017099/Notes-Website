@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* this is nav.css */
+.navigation{
+    display: flex;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 33px;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav  a li{
+    list-style: none;
+    color:white;
+    font-size: 20px;
+}
+.nav a li img{
+    width: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+}
+.search input{
+    padding: 8px 8px;
+    font-size: 17px;
+    width: 159px;
+    border-radius: 5px;
+}
+.search button{
+    padding: 9px 9px;
+    font-size: 16px;
+    background-color: black;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.search button:hover{
+    background-color: blue;
+    color: white;
+    transition:linear 90ms;
+    cursor: pointer;
+
+}
