@@ -1,0 +1,17 @@
+/* This is responsive.css file */
+@media screen and (max-width: 590px){
+    body{
+        min-width: 350px
+    }
+    .navigation{
+        display: block;
+        height: 135px;
+    }
+    .textarea{
+        max-height: calc(1.5em + 10rem + 2px);
+    }
+    #notes{
+        padding-top: 15px;
+        padding-bottom: 49px;
+    }
+}
